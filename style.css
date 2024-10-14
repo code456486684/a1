@@ -1,0 +1,608 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 5rem;
+}
+nav h1 {
+  color: #0d1321;
+  font-family: "Azeret Mono", monospace;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+nav button {
+  color: #0d1321;
+  background-color: transparent;
+  font-family: "Azeret Mono";
+  padding: 1.0625rem 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+}
+
+.banner {
+  background-image: url(./assets/Hero-bg.png);
+  background-size: contain;
+  padding-bottom: 3rem;
+}
+
+.banner img {
+  display: block;
+  margin: 0 auto 3rem;
+}
+
+.banner h1 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 4.25rem;
+}
+
+.banner p {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  opacity: 0.7;
+  margin-bottom: 3rem;
+}
+
+.banner button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background: #0d1321;
+  color: white;
+}
+
+.why-web-dev {
+  padding: 3rem 3rem;
+  border-radius: 1rem;
+  background: rgba(13, 19, 33, 0.02);
+  margin: 3rem 3rem 0;
+}
+
+.why-web-dev h1 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 3rem;
+}
+
+.why-web-dev-description {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  opacity: 0.7;
+}
+
+.why-web-dev-card {
+  margin-top: 3rem;
+  padding: 0 3rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.why-web-dev-card h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 150% */
+  margin-top: 2rem;
+}
+
+.why-web-dev-card p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+.why-web-dev-card button {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 0.75rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: 1px solid #0d1321b3;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+.img-two {
+  display: flex;
+}
+
+.why-web-dev-card-two {
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-top: 3rem;
+  display: flex;
+  gap: 3rem;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.why-web-dev-card-two h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 150% */
+  margin-top: 2rem;
+}
+
+.why-web-dev-card-two p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+.why-web-dev-card-two button {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 0.75rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: 1px solid #0d1321b3;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+.why-web-dev-card {
+  display: flex;
+  gap: 3rem;
+}
+
+.why-web-dev-card-three {
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-top: 3rem;
+  gap: 3rem;
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.why-web-dev-card-three h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: "Azeret Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 150% */
+  margin-top: 2rem;
+}
+
+.why-web-dev-card-three p {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+.why-web-dev-card-three button {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 0.75rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border: 1px solid #0d1321b3;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+.why-web-dev-card-three {
+  display: flex;
+  gap: 3rem;
+}
+
+.inspiration h1 {
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 3rem 1.5rem;
+}
+
+.inspiration p {
+  color: #0d1321b3;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin: 0 3rem 3rem;
+}
+
+.video {
+  text-align: center;
+}
+
+.target-card {
+  display: flex;
+  width: 22.75rem;
+  padding: 2.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: rgba(255, 76, 30, 0.05);
+}
+.current-target {
+  margin-bottom: 5rem;
+}
+.current-target-item p {
+  color: #0D1321B3;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+margin-bottom: 3rem;
+}
+.current-target-item h1 {
+  margin: 6rem 0 1rem;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.target-card h4 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.25rem; /* 150% */
+}
+
+.target-card p {
+  color: #0d1321b3;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.target-card p:last-of-type {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.target-card-two {
+  display: flex;
+  width: 22.75rem;
+  padding: 2.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: rgba(0, 76, 232, 0.05);
+}
+.target-card-three {
+  display: flex;
+  width: 22.75rem;
+  padding: 2.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  border-radius: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.current-target-item-two h1 {
+  margin: 6rem 0 1rem;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.target-card-two h4 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.25rem; /* 150% */
+}
+
+.target-card-two p {
+  color: #0d1321b3;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.target-card-two p:last-of-type {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.target-card-two {
+  display: flex;
+  width: 22.75rem;
+  padding: 2.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.current-target-item-three h1 {
+  margin: 6rem 0 1rem;
+  color: #0d1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.target-card-three h4 {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.25rem; /* 150% */
+}
+
+.target-card-three p {
+  color: #0d1321b3;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.target-card-three p:last-of-type {
+  color: #0d1321;
+  font-family: "Azeret Mono";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.target-card-two {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.target-card-tree {
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.target-card-wrap{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.target-card-two{
+  height: 25rem;
+}
+
+.next-target h1 {
+  color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 2rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.react-text h4 {
+  color: #0D1321;
+  font-family: "Azeret Mono";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.25rem; /* 150% */
+}
+.rtd {
+  color: #0D1321B3;
+font-family: "Azeret Mono";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem; /* 162.5% */
+text-align: start;
+margin: 1rem 0;
+}
+
+.rtlp {
+  color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.react, .nodejs, .mongodb {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #FFF;
+  padding: 1rem;
+
+}
+
+.rnm-wrapper {
+  width: 80%;
+  margin: 3rem auto;
+}
+
+.last-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(./assets/handshake.jpg) lightgray 50% / cover no-repeat;
+  width: 1100px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.lih {
+  color: #FFF;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.25rem; /* 112.5% */
+margin-bottom: 1rem;
+}
+
+.last-img p {
+  color: #FFFFFFB3;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.625rem;
+}
+
+.last-img input {
+  border-radius: 0.5rem;
+border: 1px solid rgba(13, 19, 33, 0.15);
+background: #FFF;
+padding: 1rem 5rem 1rem 1rem;
+text-align: start;
+}
+
+
+
+.last-img button{
+  margin-left: 1.5rem;
+  border-radius: 0.5rem;
+  background: #FFF;
+  padding: 0.8rem;
+  color: #0D1321;
+  text-align: center;
+  font-family: "Azeret Mono";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+footer {
+  border-radius: 1rem;
+background: rgba(13, 19, 33, 0.03);
+padding: 2rem 9.375rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+footer h4 {
+  color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+nav h1, a, button, .target-card p, .target-card-two,  .target-card-three, .rtlp {
+  cursor: pointer;
+}
